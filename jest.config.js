@@ -1,5 +1,5 @@
 module.exports = {
-	collectCoverageFrom: ['src/**/*.{ts, tsx}'],
+	collectCoverageFrom: ['src/**/*.{ts,tsx}'],
 	coveragePathIgnorePatterns: ['/node_modules/'],
 	globals: {
 		'ts-jest': {
@@ -12,5 +12,5 @@ module.exports = {
 	transform: {
 		'^.+\\.tsx?$': 'ts-jest',
 	},
-	transformIgnorePatterns: ['[/\\]node_modules[/\\].+\\.(js|jsx)$'],
+	transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
 };

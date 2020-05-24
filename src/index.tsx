@@ -1,10 +1,7 @@
-import './styles/index.css';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-const App = () => {
-	return <h1 className="text-6xl">Hello World</h1>;
-};
+import './styles/index.scss';
 
 ReactDOM.render(<App />, document.getElementById('app'));

@@ -19,7 +19,7 @@ module.exports = {
 				loader: 'babel-loader',
 			},
 			{
-				test: /\.css$/,
+				test: /\.s?css$/,
 				use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
 			},
 			{
