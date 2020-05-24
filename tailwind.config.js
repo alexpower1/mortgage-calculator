@@ -4,7 +4,7 @@ module.exports = {
 		extend: {},
 	},
 	variants: {
-		backgroundColor: ['disabled'],
+		backgroundColor: ['hover, disabled'],
 	},
 	plugins: [],
 };

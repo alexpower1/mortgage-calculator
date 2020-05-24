@@ -14,7 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "@hot-loader/react-dom": "^16.13.0",
+    "chartist": "^0.11.4",
     "react": "^16.13.1",
+    "react-chartist": "^0.14.3",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
